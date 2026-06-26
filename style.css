@@ -1,0 +1,79 @@
+* {
+    
+    /* espaçamento dentro da caixa */
+    margin: 0;
+    /* espaçamento fora da caixa */
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body {
+    font-family: Inter, sans-serif;
+    background: linear-gradient(#E0D4FF, #6259C4);
+    color: ;
+}
+
+header {
+background: linear-gradient(#29084E, #403AE0);
+padding: 16px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header > a {
+    font-size: 32px;
+}
+header ul {
+    display: none;
+}
+
+a{
+ color: aliceblue;   
+}
+
+header button {
+    background: none;
+    /* adicionar esse elemento quando eu consertar o menu border: none; */
+}
+
+main {
+    padding: 0 16px;
+    margin-top: 48px;
+    margin-bottom: 72px;
+}
+
+section {
+    margin-bottom: 72px;
+}
+
+section > h2 {
+font-size: 32px;
+font-weight: 450px;
+margin-bottom: 16px;
+}
+
+section p {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #000000;
+}
+
+/* trabalhando com o seletor de id, que é o # */
+#hero img {
+display: none;
+}
+
+#projetos {
+    font-size: 16px;
+}
+
+/* Seletor descendente */
+main img {
+    width: 300px;
+    height: 150px;
+}
+

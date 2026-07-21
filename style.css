@@ -13,7 +13,7 @@
 body {
     font-family: Inter, sans-serif;
     background: linear-gradient(#E0D4FF, #6259C4);
-    color: ;
+
 }
 
 header {
@@ -21,8 +21,9 @@ background: linear-gradient(#29084E, #403AE0);
 padding: 16px;
 }
 
-header > a {
-    font-size: 32px;
+header  a {
+    font-size: 28px;
+    font-family: Suez One;
 }
 header ul {
     display: none;
@@ -38,7 +39,6 @@ header ul a:hover {
 }
 
 .header {
-
     display: flex;
     flex-direction: row;
 justify-content: space-between;
@@ -163,7 +163,7 @@ label {
 }
 
 input, textarea {
-    border: 2px  solid #000000;
+    border: 2px  solid #f7efef;
     border-radius: 24px;
     padding: 16px;
     background-color: #d9cff1;
@@ -180,7 +180,7 @@ button {
     border: none;
     background-color: #E0D4FF;
     font-size: 14px;
-    color: rgb(11, 16, 21);
+    color: rgb(4, 5, 5);
     font-weight: 600;
     font-size: 1.3rem;
 }
@@ -226,7 +226,8 @@ h2 span {
 
 #hero img {
     display: block;
-    height: 323px;
+    height: 380px;
+    width:500px ;
     border-radius: 32px;
 }
 
